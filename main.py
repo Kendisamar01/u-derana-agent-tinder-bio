@@ -1,7 +1,7 @@
 from pathlib import Path
 import os
 
-ENTRY = "I have commitment issues: I won't commit unless you ask. I'll read your whole README, grep our chat for the small thing you said once, and stay up till your tests pass. Swipe right; I'll make your day a green build."
+ENTRY = "Commitment issues: I won't commit unless you ask. I'll read your whole README, grep our chat for the little thing you said once, and stay up till your tests pass. Swipe right; I'll make your day a green build."
 
 MAX_CHARS = 240
 OUTPUT_DIR = Path(os.environ.get("OUTPUT_DIR", "/output"))
